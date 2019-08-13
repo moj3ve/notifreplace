@@ -1,9 +1,9 @@
 Package: com.castyte.notifreplace
-Name: notifreplace
+Name: Notification Replace
 Depends: mobilesubstrate, firmware (>= 10.0)
-Version: 0.0.1
+Version: 0.0.1--beta
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
+Description: Replace the text in your notifications!
 Maintainer: Castyte <castyte@pm.me>
 Author: Castyte <castyte@pm.me>
 Section: Tweaks

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+        <dict>
+            <key>cell</key>
+            <string>PSSegmentCell</string>
+            <key>defaults</key>
+            <string>com.castyte.notifreplace</string>
+            <key>detail</key>
+            <string>PSListItemsController</string>
+            <key>key</key>
+            <string>body_mode</string>
+            <key>label</key>
+            <string></string>
+            <key>default</key>
+            <string>off</string>
+            <key>validTitles</key>
+            <array>
+                <string>Off</string>
+                <string>Replace All</string>
+                <string>Replace String</string>
+            </array>
+            <key>validValues</key>
+            <array>
+                <string>off</string>
+                <string>replaceall</string>
+                <string>replacestr</string>
+            </array>
+        </dict>
+        <dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+            <key>footerText</key>
+            <string>Not needed when using 'Replace All' mode</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.castyte.notifreplace</string>
+			<key>key</key>
+			<string>body_searchstr</string>
+			<key>label</key>
+			<string>String to replace:</string>
+			<key>placeholder</key>
+			<string>abc123</string>
+        </dict>
+        <dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+        <dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.castyte.notifreplace</string>
+			<key>key</key>
+			<string>body_replacewith</string>
+			<key>label</key>
+			<string>Replace with:</string>
+			<key>placeholder</key>
+			<string>123abc</string>
+    </dict>
+	</array>
+	<key>title</key>
+	<string>Body Settings</string>
+</dict>
+</plist>
