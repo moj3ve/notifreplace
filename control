@@ -1,0 +1,10 @@
+Package: com.castyte.notifreplace
+Name: notifreplace
+Depends: mobilesubstrate, firmware (>= 10.0)
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Castyte <castyte@pm.me>
+Author: Castyte <castyte@pm.me>
+Section: Tweaks
+Depiction: https://castyte.js.org/repo/debs/com.castyte.notifreplace/index.html
